@@ -30,7 +30,7 @@ Original data source: Sofascore
 
 **Big chances**
 
-- A situation where a player should reasonably be expected to score, usually in a one-on-one scenario or from very close range when the ball has a clear path to goal and there is low to moderate pressure on the shooter. Penalties are considered big chances, except shootout penalties.
+- A situation where a player should reasonably be expected to score, usually in a one-on-one scenario or from very close range when the ball has a clear path to goal and there is low to moderate pressure on the shooter. Penalties are considered big chances, except for shootout penalties.
 
 Definition source: Opta Match Event Definitions
 
@@ -49,7 +49,7 @@ Definition source: Opta Match Event Definitions
 
 # Quantification method
 
-- The more events (goals, shots etc.) a match produces the more entertaining it should be in theory
+- The more events (goals, shots etc.) a match produces, the more entertaining it should be in theory
 
 - If teams are more evenly matched, fewer events are required for more entertainment
 
@@ -70,7 +70,7 @@ Definition source: Opta Match Event Definitions
     - Expected goals rank * 1.1
     - Coefficient difference rank * 1.4
 
-- I averaged out weighted ranks resulting in a single value called **weighted average rank** for each match
+- I averaged out weighted ranks, resulting in a single value called **weighted average rank** for each match
 
 **Results**
 
@@ -81,7 +81,7 @@ Definition source: Opta Match Event Definitions
 # Code and output
 
 ```sql
--- Getting the basic summed up stats
+-- Getting the basic summed-up stats
 WITH basic_stats AS (
     SELECT 
         match_id,
@@ -151,7 +151,7 @@ FROM
     weighted_ranks;
 ```
 
-**The ranking of all 24/25 UEFA Champions League matches by entertainment (exlcuding the final):**
+**The ranking of all 24/25 UEFA Champions League matches by entertainment (excluding the final):**
 
 | match_id | entertainment_rank |       phase       |        home_team       |        away_team       | goals_combined | shots_combined | shots_on_target_combined | big_chances_combined | expected_goals_combined | coefficient_difference | weighted_average_rank |
 |:--------:|:------------------:|:-----------------:|:----------------------:|:----------------------:|:--------------:|:--------------:|:------------------------:|:--------------------:|:-----------------------:|:----------------------:|:---------------------:|
