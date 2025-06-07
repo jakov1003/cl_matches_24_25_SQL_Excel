@@ -155,7 +155,7 @@ FROM
 
 I wanted to show every column and row, but the table was too large and difficult to read. To improve readability, I divided the table into three sections using the dropdown menu technique. The sections are called The Most Entertaining 5, The Rest, and The Least Entertaining 5. Although the Rest section is still quite large, this solution allows me to show every piece of data while making reading easier.
 
-**Click the drop-down triangle before each section's name to view the output(s) you want.**
+**Click the dropdown triangle before each section's name to view the output(s) you want.**
 
 **The ranking of all 24/25 UEFA Champions League matches by entertainment (excluding the final):**
 
