@@ -78,7 +78,7 @@ Definition source: Opta Match Event Definitions
 
 
 
-# Code and output
+# Code
 
 ```sql
 -- Getting the basic summed-up stats
@@ -151,10 +151,15 @@ FROM
     weighted_ranks;
 ```
 
+#Output(s)
+I wanted to show every column and row, but the table was too large and difficult to read. To improve readability, I divided the table into three sections using the dropdown menu technique. The sections are called The Most Entertaining 5, The Rest, and The Least Entertaining 5. Although the Rest section is still quite large, this solution allows me to show every piece of data while making reading easier.
+
+**Click the drop-down triangle before each section's name to view the output(s) you want.**
+
 **The ranking of all 24/25 UEFA Champions League matches by entertainment (excluding the final):**
 
 <details>
-<summary> Top 5 </summary>
+<summary> The Most Entertaining 5 </summary>
 
 | match_id | entertainment_rank |       phase       |        home_team       |        away_team       | goals_combined | shots_combined | shots_on_target_combined | big_chances_combined | expected_goals_combined | coefficient_difference | weighted_average_rank |
 |:--------:|:------------------:|:-----------------:|:----------------------:|:----------------------:|:--------------:|:--------------:|:------------------------:|:--------------------:|:-----------------------:|:----------------------:|:---------------------:|
@@ -167,7 +172,7 @@ FROM
 </details>
 
 <details>
-<summary> The rest </summary>
+<summary> The Rest </summary>
 
 | match_id | entertainment_rank |       phase       |        home_team       |        away_team       | goals_combined | shots_combined | shots_on_target_combined | big_chances_combined | expected_goals_combined | coefficient_difference | weighted_average_rank |
 |:--------:|:------------------:|:-----------------:|:----------------------:|:----------------------:|:--------------:|:--------------:|:------------------------:|:--------------------:|:-----------------------:|:----------------------:|:---------------------:|
@@ -353,7 +358,7 @@ FROM
 </details>
 
 <details>
-<summary> Bottom 5 </summary>
+<summary> The Least Entertaining 5 </summary>
 
 | match_id | entertainment_rank |       phase       |        home_team       |        away_team       | goals_combined | shots_combined | shots_on_target_combined | big_chances_combined | expected_goals_combined | coefficient_difference | weighted_average_rank |
 |:--------:|:------------------:|:-----------------:|:----------------------:|:----------------------:|:--------------:|:--------------:|:------------------------:|:--------------------:|:-----------------------:|:----------------------:|:---------------------:|
