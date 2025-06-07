@@ -154,8 +154,10 @@ FROM
 **The ranking of all 24/25 UEFA Champions League matches by entertainment (excluding the final):**
 
 <details> <summary>Top 5 Most Entertaining Matches</summary>
+
 | match_id | entertainment_rank |       phase       |        home_team       |        away_team       | goals_combined | shots_combined | shots_on_target_combined | big_chances_combined | expected_goals_combined | coefficient_difference | weighted_average_rank |
 |:--------:|:------------------:|:-----------------:|:----------------------:|:----------------------:|:--------------:|:--------------:|:------------------------:|:--------------------:|:-----------------------:|:----------------------:|:---------------------:|
+
 |    93    |          1         |      Round 6      |       Atalanta BC      |     Real Madrid CF     |        5       |       30       |            15            |           9          |           5.43          |            0           |           7           |
 |    112   |          2         |      Round 7      |      S.L. Benfica      |      FC Barcelona      |        9       |       32       |            16            |          13          |           6.97          |           0.9          |          7.31         |
 |    187   |          3         |     Semi-final    |       Inter Milan      |      FC Barcelona      |        7       |       35       |            17            |          10          |           5.09          |           0.2          |          7.33         |
@@ -343,8 +345,11 @@ FROM
 |    78    |         169        |      Round 5      |       Inter Milan      | RasenBallsport Leipzig |        1       |       19       |             5            |           3          |           1.52          |            6           |          39.2         |
 |    38    |         170        |      Round 3      |        AC Milan        |     Club Brugge KV     |        4       |       24       |            10            |           1          |           1.79          |          7.05          |         39.74         |
 |    41    |         171        |      Round 3      |       Girona FC        |  Ĺ K Slovan Bratislava |        2       |       21       |             9            |           2          |           2.16          |          9.75          |          40.1         |
+
 </details>
+
 <details> <summary>Bottom 5 </summary>
+
 | match_id | entertainment_rank |       phase       |        home_team       |        away_team       | goals_combined | shots_combined | shots_on_target_combined | big_chances_combined | expected_goals_combined | coefficient_difference | weighted_average_rank |
 |:--------:|:------------------:|:-----------------:|:----------------------:|:----------------------:|:--------------:|:--------------:|:------------------------:|:--------------------:|:-----------------------:|:----------------------:|:---------------------:|
 |    103   |         172        |      Round 6      |      S.L. Benfica      |     Bologna FC 1909    |        0       |       21       |             6            |           3          |           1.48          |           6.5          |         40.22         |
@@ -352,6 +357,7 @@ FROM
 |    67    |         174        |      Round 4      |    FC Bayern Munich    |      S.L. Benfica      |        1       |       25       |            10            |           1          |           1.53          |          7.75          |         41.25         |
 |    34    |         175        |      Round 2      |     Liverpool F.C.     |     Bologna FC 1909    |        2       |       21       |             9            |           2          |           1.8           |          11.8          |         42.35         |
 |    39    |         176        |      Round 3      |      Arsenal F.C.      |   FC Shakhtar Donetsk  |        1       |       22       |             6            |           3          |           1.12          |          14.85         |         44.67         |
+
 </details>
 
 # Conclusion
