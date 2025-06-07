@@ -163,9 +163,13 @@ FROM
 |    187   |          3         |     Semi-final    |       Inter Milan      |      FC Barcelona      |        7       |       35       |            17            |          10          |           5.09          |           0.2          |          7.33         |
 |    159   |          4         | Knockout play-off |      PSV Eindhoven     |       Juventus FC      |        4       |       40       |            14            |          11          |           5.16          |           0.8          |          7.4          |
 |    125   |          5         |      Round 7      | Paris Saint-Germain FC |  Manchester City F.C.  |        6       |       35       |            15            |          12          |           4.57          |           0.2          |          8.47         |
+
 </details>
 
 <details> <summary>The Rest (6 to 171) </summary>
+
+| match_id | entertainment_rank |       phase       |        home_team       |        away_team       | goals_combined | shots_combined | shots_on_target_combined | big_chances_combined | expected_goals_combined | coefficient_difference | weighted_average_rank |
+|:--------:|:------------------:|:-----------------:|:----------------------:|:----------------------:|:--------------:|:--------------:|:------------------------:|:--------------------:|:-----------------------:|:----------------------:|:---------------------:|
 
 |    35    |          6         |      Round 2      | RasenBallsport Leipzig |       Juventus FC      |        5       |       40       |            12            |          10          |           4.57          |           0.5          |          8.51         |
 |    31    |          7         |      Round 2      |      S.L. Benfica      |     Atletico Madrid    |        4       |       23       |            10            |           7          |           4.7           |            0           |          9.84         |
