@@ -157,7 +157,7 @@ I wanted to show every piece of data, but the table was too large and difficult 
 
 The sections are called The Most Entertaining 5, The Rest, and The Least Entertaining 5. Although the Rest section is still quite large, this solution allows me to show every piece of data while making reading easier.
 
-**Click the dropdown triangle before each section's name to view the output(s) you want.**
+**Click the dropdown triangle beside each section's title to reveal the data contained within it.**
 
 **The ranking of all 24/25 UEFA Champions League matches by entertainment (excluding the final):**
 
